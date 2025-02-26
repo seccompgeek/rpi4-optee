@@ -1,18 +1,23 @@
 [submodule "meta-openembedded"]
 	path = meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded.git
+	branch = kirkstone
 [submodule "meta-optee"]
 	path = meta-optee
 	url = https://github.com/leon-anavi/meta-optee.git
 [submodule "poky"]
 	path = poky
 	url = git://git.yoctoproject.org/poky
+	branch = kirkstone
 [submodule "meta-rpi-optee"]
 	path = meta-rpi-optee
 	url = https://github.com/mdmfernandes/meta-rpi-optee.git
-[submodule "meta-raspberry-pi"]
-	path = meta-raspberry-pi
-	url = https://github.com/agherzan/meta-raspberrypi.git
+	branch = kirkstone
 [submodule "meta-raspberrypi"]
 	path = meta-raspberrypi
 	url = https://github.com/agherzan/meta-raspberrypi.git
+	branch = kirkstone
+[submodule "meta-arm"]
+	branch = kirkstone
+	url = https://git.yoctoproject.org/meta-arm
+	path = meta-arm
